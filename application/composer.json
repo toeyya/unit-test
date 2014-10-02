@@ -1,5 +1,18 @@
 {
     "require": {
-        "fg/multiplayer": "1.1.0"
+        "fg/multiplayer": "1.1.0" , 
+        "phpunit/phpunit": "4.2.*",
+        "phpunit/dbunit": ">=1.2",
+        "squizlabs/php_codesniffer": "1.*",
+        "phploc/phploc": "*",
+		"pdepend/pdepend" : "@stable",
+		"sebastian/comparator": "~1.0",
+		"ext-curl": "*",
+        "ext-dom": "*",
+		"alexandresalome/php-selenium": "dev-master",
+		"phpmd/phpmd": "dev-master",
+		"sebastian/phpcpd": "2.0.*@dev",
+		"theseer/phpdox": "dev-master"		
     }
+
 }

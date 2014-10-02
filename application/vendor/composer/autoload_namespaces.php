@@ -6,5 +6,16 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
+    'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
+    'Symfony\\Component\\DependencyInjection\\' => array($vendorDir . '/symfony/dependency-injection'),
+    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Symfony\\Component\\Config\\' => array($vendorDir . '/symfony/config'),
+    'Selenium' => array($vendorDir . '/alexandresalome/php-selenium/src'),
+    'PHPMD\\' => array($vendorDir . '/phpmd/phpmd/src/main/php'),
+    'PDepend\\' => array($vendorDir . '/pdepend/pdepend/src/main/php'),
     'Multiplayer' => array($vendorDir . '/fg/multiplayer/lib'),
+    'LazyMap\\' => array($vendorDir . '/ocramius/lazy-map/src'),
+    'Instantiator\\' => array($vendorDir . '/ocramius/instantiator/src'),
 );
